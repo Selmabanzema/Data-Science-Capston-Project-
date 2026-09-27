@@ -1,0 +1,305 @@
+# Data Science Capstone Project
+
+## 1. Project Overview
+
+This project presents an end-to-end data science workflow, starting from data collection and web scraping and continuing through data cleaning, wrangling, SQL analysis, exploratory data analysis, visualization, geospatial analysis with Folium, predictive modeling, and interactive dashboard development with Dash.
+
+The main objective is to transform raw data into meaningful insights and demonstrate how data science techniques can be applied to answer practical analytical questions.
+
+**GitHub Repository:**
+https://github.com/Selmabanzema/Data-Science-Capston-Project
+
+---
+
+## 2. Methodology
+
+The project follows a complete data science pipeline:
+
+1. Data collection
+2. Web scraping
+3. Data cleaning and preprocessing
+4. Data wrangling
+5. SQL data analysis
+6. Exploratory Data Analysis (EDA)
+7. Data visualization
+8. Geospatial analysis using Folium
+9. Predictive modeling
+10. Dash interactive application
+11. Interpretation of results
+12. Final conclusions and insights
+
+This workflow ensures that the analysis moves systematically from raw data to actionable findings.
+
+---
+
+## 3. Data Collection and Web Scraping
+
+The data was collected from the relevant web/data sources using web-scraping techniques.
+
+The scraping process involved extracting the required information, organizing the collected records into a structured format, and preparing the resulting dataset for subsequent analysis.
+
+The collected data was then inspected for inconsistencies, missing values, duplicates, incorrect data types, and other quality issues.
+
+**Evidence to include:**
+
+* Screenshot of the scraping code
+* Screenshot of the scraped dataset
+* Number of records collected
+* Important variables/columns extracted
+
+---
+
+## 4. Data Wrangling and Cleaning
+
+Before performing the analysis, the raw data was cleaned and transformed.
+
+The preprocessing stage included:
+
+* Identifying and handling missing values
+* Removing or checking duplicate records
+* Correcting data types
+* Standardizing categorical values
+* Converting numerical fields into appropriate formats
+* Creating derived variables where necessary
+* Preparing the final analytical dataset
+
+These steps ensured that the dataset was consistent and suitable for statistical analysis and machine learning.
+
+**Evidence to include:**
+
+* Before/after dataset information
+* Missing-value analysis
+* Data-type checks
+* Examples of transformations
+
+---
+
+## 5. SQL Analysis
+
+SQL was used to query and analyze the structured dataset.
+
+The SQL analysis focused on extracting useful information through filtering, grouping, aggregation, sorting, and other analytical operations.
+
+Examples of the analysis include:
+
+* Aggregating records by relevant categories
+* Calculating averages and totals
+* Identifying the highest and lowest values
+* Comparing different groups
+* Filtering records according to analytical conditions
+
+**Evidence to include:**
+
+* SQL query screenshots
+* Query results
+* A short explanation of what each query demonstrates
+
+---
+
+## 6. Exploratory Data Analysis
+
+Exploratory Data Analysis was performed to understand the structure and characteristics of the dataset.
+
+The EDA examined:
+
+* Dataset dimensions
+* Variable distributions
+* Summary statistics
+* Missing values
+* Categorical distributions
+* Relationships between variables
+* Correlations
+* Potential outliers
+* Important trends and patterns
+
+The purpose of the EDA was to identify meaningful patterns that could guide the subsequent modeling and visualization stages.
+
+**Important:** Include the actual EDA charts and outputs here rather than only describing the analysis.
+
+---
+
+## 7. Data Visualization
+
+Multiple visualizations were created to communicate the main findings clearly.
+
+The visualizations were selected according to the type of question being investigated, including comparisons, distributions, relationships, and trends.
+
+Each visualization should be accompanied by a short interpretation explaining what the reader should learn from the chart.
+
+**For each important chart, include:**
+
+**What the chart shows:**
+[Brief description]
+
+**Key observation:**
+[Main pattern or relationship]
+
+**Why it matters:**
+[How this finding contributes to the project objective]
+
+---
+
+## 8. Geospatial Analysis with Folium
+
+Folium was used to create an interactive geographical visualization.
+
+The map allows the analyzed information to be viewed spatially and helps identify geographical patterns and differences.
+
+The Folium analysis provides an additional perspective that cannot be obtained from conventional charts alone.
+
+**Evidence to include:**
+
+* Screenshot of the interactive Folium map
+* Explanation of the markers/layers
+* Explanation of the main geographical pattern identified
+
+---
+
+## 9. Predictive Modeling
+
+A predictive model was developed to investigate whether the available features could be used to predict the selected target variable.
+
+The modeling workflow included:
+
+1. Selecting relevant features
+2. Preparing the data for modeling
+3. Splitting the data into training and testing sets
+4. Training the selected model(s)
+5. Generating predictions
+6. Evaluating model performance
+7. Interpreting the results
+
+### Model Evaluation
+
+The model was evaluated using appropriate performance metrics.
+
+**Model:**
+[Model name]
+
+**Target variable:**
+[Target]
+
+**Features:**
+[List main features]
+
+**Evaluation metrics:**
+[Accuracy / RMSE / MAE / R² / Precision / Recall / F1, etc.]
+
+**Results:**
+[Insert your actual numerical results]
+
+The evaluation results provide evidence of how well the model performed on previously unseen data.
+
+**Important:** Put the actual model results, tables, and/or graphs here. This is one of the areas the grader specifically indicated could not be fully verified.
+
+---
+
+## 10. Dash Application
+
+A Dash application was developed to provide an interactive way of exploring the project results.
+
+The dashboard brings together the analytical results and allows users to interact with the data through the available controls and visualizations.
+
+### Dashboard Features
+
+The Dash application includes:
+
+* Interactive controls
+* Data visualizations
+* User-selected filtering
+* Analytical results
+* [Add your specific Dash components here]
+
+### Dash Results
+
+The dashboard was tested using different selections and inputs to verify that the visualizations and outputs respond correctly.
+
+**Insert screenshots of the actual running Dash application here.**
+
+For each screenshot, explain:
+
+* What the user selected
+* What the dashboard displays
+* What insight can be obtained from the result
+
+---
+
+## 11. Key Findings and Insights
+
+The analysis produced several important findings.
+
+### Finding 1
+
+[Your actual finding]
+
+### Finding 2
+
+[Your actual finding]
+
+### Finding 3
+
+[Your actual finding]
+
+### Finding 4
+
+[Your actual finding]
+
+These findings were identified through the combination of EDA, SQL analysis, visualization, geographical analysis, and predictive modeling.
+
+---
+
+## 12. Creativity and Additional Insights
+
+Beyond the standard analytical requirements, the project combines multiple data science techniques to provide different perspectives on the same problem.
+
+The integration of SQL analysis, interactive visualization, geographical analysis through Folium, predictive modeling, and an interactive Dash dashboard demonstrates how different tools can complement one another.
+
+The additional insights generated from these techniques help move the project beyond simple descriptive statistics toward a more complete analytical solution.
+
+**Add your strongest original insight here.**
+
+---
+
+## 13. Conclusion
+
+This project demonstrates a complete end-to-end data science workflow.
+
+Starting with data collection and web scraping, the data was cleaned, transformed, and analyzed using Python and SQL. Exploratory analysis and visualization were then used to identify important patterns and relationships.
+
+Folium provided a geographical perspective, while predictive modeling was used to investigate the possibility of predicting the selected target variable. Finally, the Dash application provided an interactive interface for exploring the analytical results.
+
+Overall, the project demonstrates how multiple data science techniques can be combined to transform raw data into structured analysis, visual insights, and predictive results.
+
+---
+
+## 14. Reproducibility and GitHub
+
+The complete project materials, including the source code and supporting files, are available in the GitHub repository:
+
+https://github.com/Selmabanzema/Data-Science-Capston-Project
+
+The repository should contain the relevant notebooks/scripts, datasets or data-access instructions, SQL work, visualizations, modeling code, and dashboard implementation required to reproduce and verify the project.
+
+---
+
+## 15. Evidence Checklist
+
+Before submitting the final presentation, verify that the PDF visibly contains:
+
+☐ GitHub URL
+☐ Project summary
+☐ Methodology
+☐ Web scraping code/results
+☐ Data-wrangling evidence
+☐ SQL queries **and outputs**
+☐ Detailed EDA charts and interpretations
+☐ Visualization results
+☐ Folium screenshot and explanation
+☐ Dash screenshots showing actual results
+☐ Predictive-model methodology
+☐ Predictive-model numerical results
+☐ Model evaluation
+☐ Key findings
+☐ Conclusion
+☐ Creativity/additional insights
+☐ GitHub/reproducibility information
